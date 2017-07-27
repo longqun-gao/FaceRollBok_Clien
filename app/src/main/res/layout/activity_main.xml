@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#3ee3aa"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/main_teacher_dname"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="手动点名系统"
+        android:textSize="20sp"
+        android:textColor="#b00d"
+        android:gravity="bottom|center"
+        android:background="@drawable/logo_backgroud"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_teacher_selCour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ziliao"
+            android:gravity="bottom|center"
+            android:text="查看课程"
+            android:textColor="#b00d"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/main_teacher_selGateByType"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="统计缺勤"
+            android:textSize="20sp"
+            android:textColor="#b00d"
+            android:gravity="bottom|center"
+            android:layout_height="match_parent"
+            android:background="@drawable/renlian"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/main_teacher_xinxi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="个人信息"
+            android:textSize="20sp"
+            android:textColor="#b00d"
+            android:gravity="bottom|center"
+            android:layout_height="match_parent"
+            android:background="@drawable/logo"/>
+        <TextView
+            android:id="@+id/main_student_login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="切换登录"
+            android:textSize="20sp"
+            android:textColor="#b00d"
+            android:gravity="bottom|center"
+            android:layout_height="match_parent"
+            android:background="@drawable/applogo"/>
+    </LinearLayout>
+
+</LinearLayout>
